@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox as ms
 
 root=Tk()
-root.title("Jogo da velha")
+root.title("Jogo da velha By Guilherme Leite")
 root.geometry("135x122+450+120")
 
 i=0
@@ -55,6 +55,7 @@ def click(botao,index):
 
 textoX="X ganhou:"+str(xVitorias)
 xGanhou=Label(root,text=textoX)
+
 ################Botões################
 botao00=Button(text='',width=5,height=2,command=lambda:click(botao00,0))
 botao00.grid(row=0,column=0)
